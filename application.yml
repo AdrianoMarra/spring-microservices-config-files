@@ -9,16 +9,16 @@ server:
   port: ${PORT:${SERVER_PORT:0}}   # Select any available port if neither port nor server port are specified.
 
 ---
-spring:
-  profiles: sentence
-server:
-  port: 8020  
-words: NotApplicable
+# spring:
+#   profiles: sentence
+# server:
+#   port: 8020  
+# words: NotApplicable
 
----
-spring:
-  profiles: subject
-words: I,You,He,She,It
+# ---
+# spring:
+#   profiles: subject
+# words: I,You,He,She,It
 
 ---
 spring:
